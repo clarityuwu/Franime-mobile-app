@@ -61,7 +61,7 @@ export class HomePage implements OnInit {
 
       tour.addStep({
         id: 'goToReleasedPage',
-        text: 'Ce bouton va sur la page des derniers anime du moment !',
+        text: 'Ce bouton vous redirige vers mon projet ! !',
         attachTo: {
           element: '.fab-button-primary',
           on: 'bottom'
