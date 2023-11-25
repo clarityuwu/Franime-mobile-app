@@ -1,0 +1,7 @@
+{
+  "name": "FrAnime",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

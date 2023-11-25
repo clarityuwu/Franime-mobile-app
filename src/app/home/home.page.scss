@@ -1,0 +1,41 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+iframe {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+ion-fab-button {
+  position: fixed; /* Change 'absolute' to 'fixed' for better positioning */
+  bottom: 20px;
+  --background: #ec152e;
+  --background-activated: #87d361;
+  --background-hover: #a3e681;
+  --border-radius: 15px;
+  --box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.3), 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+}
+
+ion-fab-button:nth-child(1) {
+  --color: white;
+  --background: #1e222c;
+  right: 22%; /* Use a percentage value for the first button */
+}
+
+ion-fab-button:nth-child(2) {
+  --color: white;
+  --background: #ec152e;
+  right: 44%; /* Use a percentage value for the second button */
+}
+
+ion-fab-button:nth-child(3) {
+  --color: white;
+  --background: #1e222c;
+  right: 66%; /* Use a percentage value for the third button */
+}

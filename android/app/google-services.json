@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "165909426158",
+    "project_id": "franime-550a4",
+    "storage_bucket": "franime-550a4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:165909426158:android:1cad61e9f287260e70e8ff",
+        "android_client_info": {
+          "package_name": "io.franime.clarity"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACAaryKIY8MxmT4IWjBagmui7XFKX2viU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
