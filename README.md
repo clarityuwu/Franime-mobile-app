@@ -1,12 +1,12 @@
 <p align="center">
-<img width="300" src="https://cdn.statically.io/gh/Anime-Sama/IMG/img/autres/AS_border.png" alt="Anime-sama logo"/>
+<img width="300" src="https://www.franime.fr/logo.png" alt="FrAnime logo"/>
 
 
 <h1 align="center">
-Anime-sama mobile app
+FrAnime mobile app
 </h1>
 
-<p align="center">Gratuit et open-source application du site Anime-sama NON OFFICIEL !!!</p>
+<p align="center">Gratuit et open-source application du site FrAnime NON OFFICIEL !!!</p>
 
 <h1 align="center">
 
@@ -31,4 +31,4 @@ Anime-sama mobile app
 
 # Installation
 
-Vous pouvez aller à [Release](https://github.com/clarityuwu/Anime-sama-mobile-app/releases) pour télécharger la dernière version de l'application sous format apk 
+Vous pouvez aller à [Release](https://github.com/clarityuwu/Franime-mobile-app/releases) pour télécharger la dernière version de l'application sous format apk 
