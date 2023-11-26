@@ -12,6 +12,8 @@ import { ScreenOrientation } from "@capacitor/screen-orientation";
 import Shepherd from 'shepherd.js'
 import { AppUpdate, AppUpdateInfo } from '@capawesome/capacitor-app-update';
 import { Haptics, ImpactStyle } from '@capacitor/haptics';
+import { InAppBrowser } from '@awesome-cordova-plugins/in-app-browser/ngx';
+
 
 @Component({
   selector: 'app-home',
@@ -202,9 +204,12 @@ export class HomePage implements OnInit {
   }
 
   // Go to the main page when fab button is clicked
-  goToGithub() {
-    window.open('https://github.com/clarityuwu/Franime-mobile-app/releases', '_blank');
-    Haptics.impact({ style: ImpactStyle.Medium });
+  Search() {
+    const iframe = document.getElementById('myIframe') as HTMLIFrameElement;
+    if (iframe) {
+      iframe.src = 'https://franime.fr/recherche?search=&type=TOUT&format=TOUT&status=TOUT&ordre=Ressemblance&themes=TOUT&algorithme=Normal&page=0';
+      Haptics.impact({ style: ImpactStyle.Medium });
+    }
   }
 
   // Notification channel list
